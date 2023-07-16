@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    margin-top:20px;
+
+}
+.board{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 1px solid black;
+}
+.bla{
+    background-color: black;
+  padding: 10px 10px  10px  10px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+.rand{
+    background-color: rgb(233, 233, 48);
+  padding: 10px 10px  10px  10px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+.res{
+    background-color: rgb(28, 28, 216);
+  padding: 10px 10px  10px  10px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+#popup{
+    background-color: rgb(160, 16, 16);
+  padding: 10px 10px  10px  10px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
